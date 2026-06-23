@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Revenue Copilot
 
-## Getting Started
+Predict customer churn before it happens.
 
-First, run the development server:
+## Problem
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Most SaaS founders discover customer churn after it has already happened.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+By the time a customer cancels, it is often too late to save them.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Solution
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+AI Revenue Copilot identifies customers at risk of churning, explains why they are at risk, and recommends actions to retain them.
 
-## Learn More
+## MVP Features
 
-To learn more about Next.js, take a look at the following resources:
+* Customer Health Scores
+* Churn Risk Detection
+* AI-Powered Explanations
+* Retention Recommendations
+* Stripe Integration
+* PostHog Integration
+* Slack Alerts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Frontend:
 
-## Deploy on Vercel
+* Next.js
+* TypeScript
+* TailwindCSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Backend:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Next.js API Routes
+
+Database:
+
+* Supabase
+
+AI:
+
+* Gemini
+
+Deployment:
+
+* Vercel
+
+## Launch Goal
+
+July 16, 2026
+
+## Vision
+
+Become the AI operating system for SaaS customer retention.
